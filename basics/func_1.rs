@@ -1,5 +1,6 @@
 fn test_branching(value: ~str) -> ~str {
     // https://github.com/mozilla/rust/issues/3463
+    // https://github.com/mozilla/rust/issues/3294
     return if value == ~"hello_world" {
                ~"Hello World"
            } else if value == ~"" {
